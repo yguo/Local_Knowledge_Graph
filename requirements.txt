@@ -4,3 +4,5 @@ scikit-learn
 annoy
 networkx
 requests
+chromadb
+python-dotenv
