@@ -1,9 +1,7 @@
-from prompt_template import PROMPTS
+from .prompt_template import PROMPTS
 import time
-import llm
 import re
 import json
-
 class ResponseGenerator:
     def __init__(self, db, llm, graph):
         self.db = db
